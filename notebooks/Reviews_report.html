@@ -7557,8 +7557,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="2.-Leo-la-data-de-reviews">2. Leo la data de reviews<a class="anchor-link" href="#2.-Leo-la-data-de-reviews">¶</a></h1><p>La informacion a analizar, corresponde al sitio Mercado Libre.
-La informacion contiene 1134 reviews de productos, de la categoria Celulares y Teléfonos.
+<h1 id="2.-Leo-la-data-de-reviews">2. Leo la data de reviews<a class="anchor-link" href="#2.-Leo-la-data-de-reviews">¶</a></h1><p>La información a analizar, corresponde al sitio Mercado Libre.
+La información contiene 1134 reviews de productos, de la categoria Celulares y Teléfonos.
 El criterio utilizado para determinar si la review es positiva o negativa fue el ranking en estrellas obtenido en la review.</p>
 <p><strong>Review Positiva:</strong> 4 o 5 estrellas</p>
 <p><strong>Review Negativa:</strong> 1, 2 o 3 estrellas</p>
@@ -7587,7 +7587,7 @@ El criterio utilizado para determinar si la review es positiva o negativa fue el
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Antes de comenzar, nos aseguramos que todos los registros tengan una review</p>
+<p>Antes de comenzar, nos aseguramos que todos los registros tengan una review.</p>
 </div>
 </div>
 </div>
@@ -7635,7 +7635,7 @@ El criterio utilizado para determinar si la review es positiva o negativa fue el
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Al existir 18 registros sin reviews, se eliminan ya que no se podrá hacer prediccion alguna sobre estos registros</p>
+<p>Al existir 18 registros sin reviews, se eliminan ya que no se podrá hacer predicción alguna sobre estos registros.</p>
 </div>
 </div>
 </div>
@@ -7660,7 +7660,7 @@ El criterio utilizado para determinar si la review es positiva o negativa fue el
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Verificamos el balance de las clases a categorizar</p>
+<p>Verificamos el balance de las clases a categorizar.</p>
 </div>
 </div>
 </div>
@@ -7727,7 +7727,7 @@ Name: proportion, dtype: float64</pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Si bien se seleccionaron 1116 reviews, de Mercado Libre, a fines del reporte solo utilizar el 20% del dataset para agilizar la velocidad del experimento.</p>
-<p>Paar ser mas precisos con la realidad, el dataset de muestra tendra la mismsa distribucion de clases.</p>
+<p>Para ser mas precisos con la realidad, el dataset de muestra tendra la mismsa distribución de clases.</p>
 </div>
 </div>
 </div>
@@ -8295,7 +8295,7 @@ weighted avg       0.97      0.96      0.96       223
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Como se puede observar, en este caso, las reviews son casos que, a pesar de haberlas calificado con 4 o 5 estrellas, el producto presenta oportunidades de mejora. Puede que estas reviews, no son lo suficientemente malas, como para tribuirle el ranking que finalmente le dieron al producto.</p>
+<p>Como se puede observar, en este caso, las reviews son casos que, a pesar de haberlas calificado con 4 o 5 estrellas, el producto presenta oportunidades de mejora. Puede que estas reviews, no son lo suficientemente malas, como para atribuirle el ranking que finalmente le dieron al producto.</p>
 </div>
 </div>
 </div>
@@ -8406,9 +8406,9 @@ weighted avg       0.97      0.96      0.96       223
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="7.-Conclusiones">7. Conclusiones<a class="anchor-link" href="#7.-Conclusiones">¶</a></h1><ol>
-<li>El modelo funciona muy bien, tiene un 96% de accuracy.</li>
-<li>La baja precisión, en el caso de las reviews Negativas, se puede explicar por una mal criterio en la categorizacion de las reviews, es decir, no siempre el score que se le atribuye al producto, va correlacionado a una review acorde.</li>
-<li>Es un buen LLM que sirve para identificar las reviews Positivas, alcanzando casi 100% de accuracy</li>
+<li>El modelo performa muy bien para clasificar reviews, obteniendo un 96% de accuracy para la muestra seleccionada.</li>
+<li>La baja precisión, en el caso de las reviews Negativas, se puede explicar por una mal criterio en la categorización de las reviews, es decir, no siempre el score que se le atribuye al producto, va correlacionado a una review acorde.</li>
+<li>El LLM es muy efectivo para identificar las reviews Positivas, alcanzando casi 100% de precisión</li>
 </ol>
 </div>
 </div>
@@ -8423,23 +8423,9 @@ weighted avg       0.97      0.96      0.96       223
 <h1 id="8.-Next-steps-/-Mejoras-propuestas">8. Next steps / Mejoras propuestas<a class="anchor-link" href="#8.-Next-steps-/-Mejoras-propuestas">¶</a></h1><p>Para mejorar el score del LLM, se proponen las siguientes alternativas:</p>
 <ol>
 <li>Seleccionar otro criterio para categorizar las reviews entre Positivas y Negativas.</li>
-<li>Utilizar ejemplos de casos "edge", con el objetivo de proporcionarle mas informacion relevante al LLM.</li>
+<li>Utilizar ejemplos con casos "edge", con el objetivo de proporcionarle mayor cantidad de información relevante al LLM sobre casos de reviews positivas y negativas.</li>
 <li>Hacer fine tune del sobre un modelo base para poder ajustar los resultados.</li>
 </ol>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=fab982d6-ac43-4cf1-892e-bfa73f6968af">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
 </div>
 </div>
 </div>
