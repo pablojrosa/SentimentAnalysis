@@ -2,7 +2,7 @@
 
 Bienvenido al repositorio de la aplicación **Product Review Sentiment Analysis**. Esta aplicación fue desarrollada para analizar el sentimiento de las opiniones de productos utilizando el poder de la API de OpenAI.
 
-Las reviews se obtuvieron del sition [Mercado Libre Argentina](https://www.mercadolibre.com.ar/) utilizando las diferentes [APIs](https://developers.mercadolibre.com.ar/es_ar) que tienen disponibles en su web para developers.
+Las reviews se obtuvieron del sitio [Mercado Libre Argentina](https://www.mercadolibre.com.ar/) utilizando las diferentes [APIs](https://developers.mercadolibre.com.ar/es_ar) que tienen disponibles en su web para developers.
 
 ## Probar la app
 Hacer click [aquí](https://sentimentanalysis-23w7xhiafpu8l4ijpw3dev.streamlit.app/) para utilizar la app
