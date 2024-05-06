@@ -4,6 +4,9 @@ Bienvenido al repositorio de la aplicación **Product Review Sentiment Analysis*
 
 Las reviews se obtuvieron del sition [Mercado Libre Argentina](https://www.mercadolibre.com.ar/) utilizando las diferentes [APIs](https://developers.mercadolibre.com.ar/es_ar) que tienen disponibles en su web para developers.
 
+## Probar la app
+Hacer click [aquí](https://sentimentanalysis-23w7xhiafpu8l4ijpw3dev.streamlit.app/) para utilizar la app
+
 ## Características
 
 - **Análisis de sentimiento:** Proporciona una evaluación del sentimiento de las opiniones de los productos, clasificándolas en Positivas o Negativas.
