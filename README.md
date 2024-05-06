@@ -8,7 +8,7 @@ Las reviews se obtuvieron del sition [Mercado Libre Argentina](https://www.merca
 
 - **Análisis de sentimiento:** Proporciona una evaluación del sentimiento de las opiniones de los productos, clasificándolas en Positivas o Negativas.
 - **Interfaz fácil de usar:** Creada con Streamlit.
-- **API de OpenAI:** Utiliza el modelo GPT para analizar el sentimiento de las opiniones.
+- **API de OpenAI:** Utiliza el modelo gpt-4 para analizar el sentimiento de las opiniones.
 
 ## Tecnologías Utilizadas
 

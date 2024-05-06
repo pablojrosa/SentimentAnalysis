@@ -115,6 +115,26 @@ def get_item_reviews(item_id, title, num_pages):
     return all_item_reviews
 
 def get_all_reviews(list_itmes, num_pages):
+    """
+    Retrieves and processes reviews for a list of items.
+
+    This function fetches reviews for each item in the provided list and processes 
+    them to determine their sentiment based on the review rating. The reviews are
+    then saved to a CSV file.
+
+    Args:
+        list_itmes (list): A list of dictionaries, where each dictionary contains
+                           information about an item, specifically including "id" 
+                           and "title" keys.
+        num_pages (int): The number of pages of reviews to retrieve for each item.
+
+    Returns:
+        None
+
+    Side Effects:
+        Writes a CSV file named 'item_reviews.csv' containing the reviews data 
+        with an additional column for sentiment.
+    """
     all_reviews = []
     for item_id in list_itmes:
         title = item_id["title"]
@@ -128,6 +148,19 @@ def get_all_reviews(list_itmes, num_pages):
     df_reviews.to_csv("data/item_reviews.csv", index=False)
 
 def run_all():
+    """
+    Orchestrates the complete process of retrieving reviews for a specific category.
+
+    This function fetches the category ID for "Celulares y Teléfonos", retrieves 
+    a list of items within this category, and then gathers reviews for those items 
+    by calling the `get_all_reviews` function.
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
     category_id = get_category_id("Celulares y Teléfonos")
     list_times = get_listed_items(category_id, 1)
     get_all_reviews(list_times, num_pages=1)
