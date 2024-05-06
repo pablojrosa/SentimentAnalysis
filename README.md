@@ -15,7 +15,7 @@ Las reviews se obtuvieron del sition [Mercado Libre Argentina](https://www.merca
 - **OpenAI API:** Para procesar y clasificar las opiniones en términos de sentimiento.
 - **Streamlit:** Para desarrollar la interfaz de usuario y desplegar la aplicación.
 
-### Ejecución de una aplicación en local
+## Ejecución en local
 
 1. **Clonar el repositorio:**
    ```bash
